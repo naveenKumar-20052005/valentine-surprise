@@ -1,0 +1,23 @@
+{
+  "name": "valentine-surprise",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://naveenKumar-20052005.github.io/valentine-surprise/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.3.5"
+  }
+}
